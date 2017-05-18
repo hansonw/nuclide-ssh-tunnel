@@ -1,0 +1,20 @@
+{
+  "name": "nuclide-ssh-tunnel",
+  "main": "./index.js",
+  "version": "0.0.0",
+  "description": "Start a Nuclide connection via SSH tunneling.",
+  "repository": "https://github.com/hansonw/nuclide-ssh-tunnel",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.16.0"
+  },
+  "dependencies": {
+  },
+  "consumedServices": {
+    "nuclide-remote-projects": {
+      "versions": {
+        "0.0.0": "consumeRemoteProjectsService"
+      }
+    }
+  }
+}
